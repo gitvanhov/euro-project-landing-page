@@ -47,6 +47,23 @@ p {
 }
 
 .footer-logo-image{
-    width: 50px;
+    width: 240px;
 }
 
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none; /*Убирает черту под гиперссылкой*/
+    border-bottom: 3px solid transparent;
+  }
+
+  .topnav a:hover {
+    border-bottom: 3px solid #ee8728;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #ee8728;
+  }
