@@ -1,0 +1,52 @@
+body{
+    color: #727171;
+}
+
+p {
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify;
+}
+
+/* div .row{
+    margin-top: 10px;
+} */
+
+.orange-text {
+    color: #ee8728;
+}
+
+.orange-background{
+    background-color: #e9750a;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.partners-block{
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.clients-block{
+    background-image: url(../images/clients-480.png);
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.contacts-block{
+    background-image: url(../images/contacts-bg-720.jpg);
+    height: 300px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-block{
+    background-color: #3f3e3e;
+    height: 100px;
+}
+
+.footer-logo-image{
+    width: 50px;
+}
+
