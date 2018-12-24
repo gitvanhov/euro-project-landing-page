@@ -1,5 +1,11 @@
+@font-face {
+    font-family: osc-light; /* Имя шрифта */
+    src: url("../fonts/OpenSansCondensed-Light.ttf"); /* Путь к файлу со шрифтом */
+   }
+
 body{
-    color: #727171;
+    color: #727171;    
+    font-family: osc-light;
 }
 
 p {
@@ -50,14 +56,22 @@ p {
     width: 240px;
 }
 
+.topnav{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
 
 .topnav a {
+    font-size: 15px;
+    font-weight: 300;
     float: left;
     display: block;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none; /*Убирает черту под гиперссылкой*/
-    border-bottom: 3px solid transparent;
+    border-bottom: 3px solid #3f3e3e;
+    color: #727171
   }
 
   .topnav a:hover {
@@ -67,3 +81,17 @@ p {
   .topnav a.active {
     border-bottom: 3px solid #ee8728;
   }
+
+  .topnav div:nth-child(1), 
+  .topnav div:nth-last-child(1){
+    width: 6px;
+    height: 44px;
+    float: left;
+    border-bottom: 3px solid #3f3e3e;
+  }
+
+
+
+.top-logo{
+    margin-bottom: 20px;
+}
