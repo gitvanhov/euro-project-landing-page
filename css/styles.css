@@ -149,8 +149,8 @@ p {
     width: 940px;
 }
 
-.carousel-control .slide-left-arrow-image,
-.carousel-control .slide-right-arrow-image{
+.carousel-control .slider-left-arrow-image,
+.carousel-control .slider-right-arrow-image{
     width: 34px;
     height: 56px;    
     position: absolute;    
@@ -158,12 +158,12 @@ p {
 }
 
 
-.carousel-control .slide-right-arrow-image{
+.carousel-control .slider-right-arrow-image{
     right: -30%;
     background-image: url("../images/slide-arrow-right.png");
 }
 
-.carousel-control .slide-left-arrow-image{
+.carousel-control .slider-left-arrow-image{
     left: -45%;
     background-image: url("../images/slide-arrow-left.png");
 }
@@ -181,4 +181,21 @@ p {
 }
 
 
+a, a:hover{
+    text-decoration: none; /*Убирает черту под гиперссылкой*/
+    color: #727171
+}
 
+.arrow-to-bottom-image{
+    position: absolute;
+    top: 10px;
+    background-image: url("../images/arrow-to-bottom.png");
+    width: 92px;
+    height: 60px;
+    left: -80px;
+}
+
+.arrow-to-bottom{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
