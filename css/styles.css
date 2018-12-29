@@ -25,12 +25,11 @@ p {
     margin-top: 40px;
 }
 
-.partners-block{
-    height: 100px;
-    margin-bottom: 15px;
+.partners-text-block{
+    margin-bottom: 35px;
 }
 
-.clients-block{
+.partners-image-block{
     background-image: url("../images/clients-480.png");
     height: 400px;
     margin-bottom: 40px;
