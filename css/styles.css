@@ -6,6 +6,7 @@
 body{
     color: #727171;    
     font-family: osc-light;
+    background-image: url("../images/bg.jpg");
 }
 
 p {
