@@ -53,6 +53,7 @@ p {
 
 .footer-logo-image-block{        
     width:100%;
+    margin-top: 30px;
 }
 
 .footer-logo-image-block img,
@@ -76,10 +77,32 @@ p {
     width: 240px;
 }
 
+.bottomnav, 
 .topnav{
     height: 50px;
     margin-bottom: 20px;
-    width: 245px;
+}
+
+.bottomnav-block{
+    margin-top: 30px;
+}
+
+.bottomnav{    
+    width: 325px; /*если не задать точную ширину, то центровка center стилем не будет работать*/
+}
+
+.bottomnav a{
+    font-size: 24px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none; /*Убирает черту под гиперссылкой*/
+    color: #727171
+}
+
+.topnav{
+    width: 245px;/*если не задать точную ширину, то центровка center стилем не будет работать*/
 }
 
 
