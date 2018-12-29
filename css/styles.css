@@ -30,8 +30,7 @@ p {
 }
 
 .partners-image-block{
-    background-image: url("../images/clients-480.png");
-    height: 400px;
+    width: inherit;
     margin-bottom: 40px;
 }
 
