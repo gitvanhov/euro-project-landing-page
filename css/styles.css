@@ -51,6 +51,11 @@ p {
     width:inherit;
 }
 
+.footer-logo-image-block{        
+    width:100%;
+}
+
+.footer-logo-image-block img,
 .partners-image-block img{  
     width:inherit;
 }
