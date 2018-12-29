@@ -77,21 +77,28 @@ p {
     width: 240px;
 }
 
-.bottomnav, 
-.topnav{
-    height: 50px;
-    margin-bottom: 20px;
-}
-
 .bottomnav-block{
     margin-top: 30px;
 }
 
-.bottomnav{    
+.bottomnav, 
+.topnav{
+    height: 50px;
+    margin-bottom: 20px;    
+}
+
+.bottomnav{
     width: 325px; /*если не задать точную ширину, то центровка center стилем не будет работать*/
 }
 
-.bottomnav a{
+.topnav{
+    width: 345px; /*если не задать точную ширину, то центровка center стилем не будет работать*/
+}
+
+
+
+.bottomnav a,
+.topnav a{
     font-size: 24px;
     float: left;
     display: block;
@@ -101,21 +108,9 @@ p {
     color: #727171
 }
 
-.topnav{
-    width: 245px;/*если не задать точную ширину, то центровка center стилем не будет работать*/
-}
-
-
 .topnav a {
-    font-size: 15px;
     font-weight: 300;
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none; /*Убирает черту под гиперссылкой*/
     border-bottom: 3px solid #727171;
-    color: #727171
   }
 
   .topnav a:hover {
@@ -129,7 +124,7 @@ p {
   .topnav div:nth-child(1), 
   .topnav div:nth-last-child(1){
     width: 6px;
-    height: 44px;
+    height: 57px;
     float: left;
     border-bottom: 3px solid #727171;
   }
