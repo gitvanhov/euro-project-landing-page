@@ -38,6 +38,10 @@ p {
     width:inherit;
 }
 
+.partners-image-block img{  
+    width:inherit;
+}
+
 .contacts-block{
     background-image: url("../images/contacts-bg-720.jpg");
     height: 300px;
