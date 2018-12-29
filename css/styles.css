@@ -218,3 +218,7 @@ a, a:hover{
     background: #3B5998;
     color: white;
 }
+
+.list-unstyled li{
+    margin: 2px;
+}
