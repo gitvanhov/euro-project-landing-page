@@ -55,7 +55,7 @@ p {
     height: 50px;
     margin-bottom: 20px;
     width: 245px;
-    margin: auto;/*для центровки внутри родительского блока*/
+    /*margin: auto;/*для центровки внутри родительского блока*/
 }
 
 
@@ -91,4 +91,13 @@ p {
 
 .top-logo{
     margin-bottom: 20px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-container{
+    width: 940px;
 }
