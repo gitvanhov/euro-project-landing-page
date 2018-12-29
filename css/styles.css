@@ -25,7 +25,9 @@ p {
     margin-top: 40px;
 }
 
-.aboutus-title-block{
+.aboutus-title-block,
+.btl-actions-title-block, 
+.partners-title-block{
     margin-bottom: 35px;
 }
 
