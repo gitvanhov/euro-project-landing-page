@@ -1,7 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     //top menu
-    $('.topnav a').click(function(){
+    $('.topnav a').click(function () {
 
         $('a.active').removeClass('active');
 
@@ -9,17 +9,14 @@ $(document).ready(function(){
 
     });
 
-        //bottom menu
-        $('.bottomnav a').click(function(){
+    //bottom menu
+    $('.bottomnav a').click(function () {
 
-            $('a.active').removeClass('active');
+        $('a.active').removeClass('active');
 
-            var topRefId = this.id.replace('bottom', 'top');
+        var topRefId = this.id.replace('bottom', 'top');
 
-            $('#'+topRefId).addClass('active');
-    
-            console.log(this);
-    
-        });
+        $('#' + topRefId).addClass('active');
+    });
 
 });

@@ -132,6 +132,8 @@ p {
 
 .top-logo{
     margin-bottom: 20px;
+    margin-right: 3%;
+    float: right;
 }
 
 .center{
