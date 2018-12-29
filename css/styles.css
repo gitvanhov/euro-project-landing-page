@@ -144,3 +144,12 @@ p {
 .custom-container{
     width: 940px;
 }
+
+.carousel-control .slide-right-arrow{
+    right: -30%;
+    background-image: url("../images/slide-arrow-right.png");
+    width: 34px;
+    height: 56px;    
+    position: absolute;    
+    top: 45%;
+}
