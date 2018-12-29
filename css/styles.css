@@ -21,7 +21,7 @@ p {
     font-weight: bold;
 }
 
-.orange-background{
+.statistics-block{
     background-color: #e9750a;
     color: white;
     padding-top: 10px;
@@ -38,11 +38,11 @@ p {
     font-size: 48px;
 }
 
-.statistics-block h4:nth-child(2){
+.statistics-sub-block h4:nth-child(2){
     font-weight: bold;
 }
 
-.statistics-block h4{
+.statistics-sub-block h4{
     margin: 0;
 }
 
