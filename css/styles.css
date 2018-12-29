@@ -222,3 +222,7 @@ a, a:hover{
 .list-unstyled li{
     margin: 2px;
 }
+
+.btl-actions-block{
+    margin-bottom: 125px;
+}
