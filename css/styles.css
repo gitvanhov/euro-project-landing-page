@@ -17,6 +17,10 @@ p {
     color: #ee8728;
 }
 
+.bold-text{
+    font-weight: bold;
+}
+
 .orange-background{
     background-color: #e9750a;
     color: white;
@@ -27,11 +31,20 @@ p {
 
 .aboutus-title-block,
 .btl-actions-title-block, 
-.partners-title-block{
-    margin-bottom: 35px;    
+.partners-title-block,
+.contacs-title-block{
+    margin-top: 25px;    
+    margin-bottom: 35px;
     font-size: 48px;
 }
 
+.statistics-block h4:nth-child(2){
+    font-weight: bold;
+}
+
+.statistics-block h4{
+    margin: 0;
+}
 
 .partners-image-block{
     margin-bottom: 40px;    
@@ -62,7 +75,6 @@ p {
     height: 50px;
     margin-bottom: 20px;
     width: 245px;
-    /*margin: auto;/*для центровки внутри родительского блока*/
 }
 
 
