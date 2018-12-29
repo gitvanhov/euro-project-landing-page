@@ -199,3 +199,22 @@ a, a:hover{
     margin-top: 55px;
     margin-bottom: 30px;
 }
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-vk {
+    background: #3B5998;
+    color: white;
+}
