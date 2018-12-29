@@ -48,7 +48,7 @@ p {
 
 .partners-image-block{
     margin-bottom: 40px;    
-    width:inherit;
+    width:100%;
 }
 
 .footer-logo-image-block{        
@@ -70,7 +70,6 @@ p {
 
 .footer-block{
     background-color: #3f3e3e;
-    height: 100px;
 }
 
 .footer-logo-image{
