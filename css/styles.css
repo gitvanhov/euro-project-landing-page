@@ -28,12 +28,10 @@ p {
 .aboutus-title-block,
 .btl-actions-title-block, 
 .partners-title-block{
-    margin-bottom: 35px;
+    margin-bottom: 35px;    
+    font-size: 48px;
 }
 
-.partners-title-block{
-    margin-bottom: 35px;
-}
 
 .partners-image-block{
     margin-bottom: 40px;    
