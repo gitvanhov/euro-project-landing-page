@@ -141,15 +141,44 @@ p {
     margin-right: auto;
 }
 
+.slider-text-vertical-center{
+    padding-top: 50%;
+}
+
 .custom-container{
     width: 940px;
 }
 
-.carousel-control .slide-right-arrow{
-    right: -30%;
-    background-image: url("../images/slide-arrow-right.png");
+.carousel-control .slide-left-arrow-image,
+.carousel-control .slide-right-arrow-image{
     width: 34px;
     height: 56px;    
     position: absolute;    
-    top: 45%;
+    top: 40%;
 }
+
+
+.carousel-control .slide-right-arrow-image{
+    right: -30%;
+    background-image: url("../images/slide-arrow-right.png");
+}
+
+.carousel-control .slide-left-arrow-image{
+    left: -45%;
+    background-image: url("../images/slide-arrow-left.png");
+}
+
+.right-ref{
+    right:0;
+    left: auto;    
+    opacity: 1;
+}
+
+.left-ref{
+    right:auto;
+    left: 0;    
+    opacity: 1;
+}
+
+
+
