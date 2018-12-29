@@ -188,7 +188,7 @@ a, a:hover{
 
 .arrow-to-bottom-image{
     position: absolute;
-    top: 10px;
+    top: 40px;
     background-image: url("../images/arrow-to-bottom.png");
     width: 92px;
     height: 60px;
@@ -196,6 +196,6 @@ a, a:hover{
 }
 
 .arrow-to-bottom{
-    margin-top: 15px;
+    margin-top: 55px;
     margin-bottom: 30px;
 }
