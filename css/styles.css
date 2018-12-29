@@ -13,10 +13,6 @@ p {
     text-align: justify;
 }
 
-/* div .row{
-    margin-top: 10px;
-} */
-
 .orange-text {
     color: #ee8728;
 }
@@ -35,13 +31,13 @@ p {
 }
 
 .clients-block{
-    background-image: url(../images/clients-480.png);
+    background-image: url("../images/clients-480.png");
     height: 400px;
     margin-bottom: 40px;
 }
 
 .contacts-block{
-    background-image: url(../images/contacts-bg-720.jpg);
+    background-image: url("../images/contacts-bg-720.jpg");
     height: 300px;
     color: white;
     margin-bottom: 15px;
@@ -59,6 +55,8 @@ p {
 .topnav{
     height: 50px;
     margin-bottom: 20px;
+    width: 245px;
+    margin: auto;/*для центровки внутри родительского блока*/
 }
 
 
@@ -70,7 +68,7 @@ p {
     text-align: center;
     padding: 10px 10px;
     text-decoration: none; /*Убирает черту под гиперссылкой*/
-    border-bottom: 3px solid #3f3e3e;
+    border-bottom: 3px solid #727171;
     color: #727171
   }
 
@@ -87,7 +85,7 @@ p {
     width: 6px;
     height: 44px;
     float: left;
-    border-bottom: 3px solid #3f3e3e;
+    border-bottom: 3px solid #727171;
   }
 
 
