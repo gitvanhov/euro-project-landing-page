@@ -108,6 +108,7 @@ p {
     color: #727171
 }
 
+/*верхнее меню*/
 .topnav a {
     font-weight: 300;
     border-bottom: 3px solid #727171;
@@ -133,22 +134,22 @@ p {
 
 .top-logo{
     margin-bottom: 20px;
-    margin-right: 3%;
-    float: right;
 }
 
-.center{
+.horizontal-center{
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 .slider-text-vertical-center{
     padding-top: 50%;
 }
-
+/*
 .custom-container{
     width: 940px;
 }
+*/
 
 .carousel-control .slider-left-arrow-image,
 .carousel-control .slider-right-arrow-image{
@@ -198,7 +199,6 @@ a, a:hover{
 
 .arrow-to-bottom{
     margin-top: 55px;
-    margin-bottom: 30px;
 }
 
 .fa {
